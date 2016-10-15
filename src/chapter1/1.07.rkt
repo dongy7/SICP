@@ -1,3 +1,5 @@
+#lang racket
+
 (define (good-enough? guess prev)
   (< (abs (- guess prev)) 0.000001))
 
