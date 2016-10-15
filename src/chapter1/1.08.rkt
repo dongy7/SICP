@@ -25,3 +25,5 @@
 
 (define (cube-root x)
   (cube-root-iter 1.0 x))
+
+(provide cube-root)
