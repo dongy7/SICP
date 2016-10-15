@@ -1,4 +1,4 @@
-#lang racket
+#lang racket/base
 
 (define (>= x y)
   (or (> x y) (= x y)))
@@ -15,3 +15,5 @@
         ((and (>= x y) (>= z y)) (sum-of-squares x z))
         ((and (>= y x) (>= z x)) (sum-of-squares y z))
         ((and (= x y) (= x z)) (sum-of-squares x y))))
+
+(provide f)
