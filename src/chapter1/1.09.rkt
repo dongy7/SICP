@@ -26,7 +26,6 @@
       b
       (+ (dec a) (inc b))))
 
-
 ; Iterative procedure
 (+ 4 5)
 (+ (dec 4) (inc 5))
